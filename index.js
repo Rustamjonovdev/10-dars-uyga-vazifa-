@@ -16,6 +16,10 @@ form.addEventListener('submit', (e) => {
     }).catch()
 })
 
+inputEl.addEventListener('input', () => {
+    new Audio("./music/button-click.mp3").play()
+})
+
 function upDateUI(data){
     console.log(data[0]);
     
