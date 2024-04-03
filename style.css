@@ -5,6 +5,20 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+body{
+    background-color: skyblue;
+}
+
+.title{
+    text-align: center;
+    margin: 50px 525px;
+    background-color:  lightgreen;
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    border-radius: 16px;
+}
+
 .container{
     display: flex;
     flex-direction: column;
